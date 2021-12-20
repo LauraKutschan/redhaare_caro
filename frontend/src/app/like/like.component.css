@@ -1,0 +1,13 @@
+.main-card {
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 2%;
+}
+
+.redhaare-image {
+  width: 60%; /* you can use % */
+  height: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 20%;
+}

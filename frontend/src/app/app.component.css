@@ -1,0 +1,11 @@
+:host {
+  position: absolute;
+  top: 64px;  /* here you must specify the height of your topbar*/
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+body {
+  font-family: "Academy Engraved LET" !important;
+}

@@ -1,9 +1,7 @@
 <header class="header-styling">
-    <div class="logo-styling">
-      <img src="../../../assets/langesLogo.jpg" style="width:50%" routerLink="">
-    </div>
     <div class="menu-styling">
-      <button class="button-styling" routerLink="pictures" mat-button>PICTURES</button>
-      <button class="button-styling" routerLink="contact" mat-button>CONTACT</button>
+      <button class="button-styling" routerLink="home" mat-button>{{ "header.home" | translate}}</button>
+      <button class="button-styling" routerLink="galery" mat-button>{{ "header.galery" | translate}}</button>
+      <button class="button-styling" routerLink="contact" mat-button>{{ "header.contact" | translate}}</button>
     </div>
 </header>

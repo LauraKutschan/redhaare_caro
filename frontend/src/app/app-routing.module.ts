@@ -1,32 +1,21 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import {LayoutComponent} from "./layout/layout.component";
-import {CrudComponent} from "./crud/crud.component";
 import {ContactComponent} from "./contact/contact.component";
-import {LikeComponent} from "./like/like.component";
-import {ShareComponent} from "./share/share.component";
+import {HomeComponent} from "./home/home.component";
+import {GaleryComponent} from "./galery/galery.component";
 
 const routes: Routes = [
-  {
-    path: "",
-    component: LayoutComponent,
-    pathMatch: 'full'
-  },
-  {
-    path: "pictures",
-    component: CrudComponent
-  },
   {
     path: "contact",
     component: ContactComponent
   },
   {
-    path: "like",
-    component: LikeComponent
+    path: "home",
+    component: HomeComponent
   },
   {
-    path: "share",
-    component: ShareComponent
+    path: "galery",
+    component: GaleryComponent
   }
 ];
 

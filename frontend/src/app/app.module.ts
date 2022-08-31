@@ -3,8 +3,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
-import { LayoutComponent } from './layout/layout.component';
-import { CrudComponent } from './crud/crud.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatGridListModule} from "@angular/material/grid-list";
 import {MatIconModule} from "@angular/material/icon";
@@ -12,24 +10,23 @@ import {MatToolbarModule} from "@angular/material/toolbar";
 import {MatButtonModule} from "@angular/material/button";
 import {MatSelectModule} from "@angular/material/select";
 import {RouterModule} from "@angular/router";
-import { ShareComponent } from './share/share.component';
-import { LikeComponent } from './like/like.component';
 import { ContactComponent } from './contact/contact.component';
 import {MatStepperModule} from "@angular/material/stepper";
 import {ReactiveFormsModule} from "@angular/forms";
 import {MatCardModule} from "@angular/material/card";
 import { FooterComponent } from './footer/footer.component';
+import { HomeComponent } from './home/home.component';
+import { GaleryComponent } from './galery/galery.component';
+import {NgxTranslateModule} from "./translate/ngx-translate.module";
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    LayoutComponent,
-    CrudComponent,
-    ShareComponent,
-    LikeComponent,
     ContactComponent,
-    FooterComponent
+    FooterComponent,
+    HomeComponent,
+    GaleryComponent
   ],
   imports: [
     BrowserModule,
@@ -44,6 +41,7 @@ import { FooterComponent } from './footer/footer.component';
     MatStepperModule,
     ReactiveFormsModule,
     MatCardModule,
+    NgxTranslateModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

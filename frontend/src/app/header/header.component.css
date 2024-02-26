@@ -1,13 +1,14 @@
 .spectrumBackground {
   background:
-    linear-gradient(#ffc3bd, transparent),
-    linear-gradient(to top left, #9bc7fc, transparent),
-    linear-gradient(to top right, #adffb0, transparent);
+    linear-gradient(#ffd1cd, transparent),
+    linear-gradient(to top left, #ffeb63, transparent),
+    linear-gradient(to top right, #fcb882, transparent);
   background-blend-mode: screen;
   min-height: 100%;
 }
 
 .header-styling {
+  position: relative;
   background-color: transparent !important;
   margin: auto;
   justify-content: center;
@@ -18,7 +19,7 @@
 
 .logo-styling {
   font-family: Silom;
-  color: #ff4500;
+  color: #f54600;
   font-size: 10vw;
   line-height: 10vw;
   margin-bottom: 0;
@@ -28,8 +29,9 @@
 .logo-underline-styling {
   font-family: Helvetica, sans-serif;
   font-weight: lighter;
-  color: #ff4500;
-  font-size: 3vw;
+  letter-spacing: 1px;
+  color: #f54600;
+  font-size: 2vw;
   line-height: 3vw;
   cursor: pointer;
 }
@@ -46,13 +48,28 @@
 .menu-button-styling {
   font-family: Helvetica, sans-serif;
   border-radius: 15px;
-  color: #ff4500;
+  color: #f54600;
   margin: 30px 10px 10px 10px;
   background-color: white;
   font-size: 16px !important;
 }
 
+.menu-button-styling:hover {
+  opacity: 0.5;
+  transition: opacity 0.2s ease-in-out;
+}
 
+.img1 {
+  position: absolute;
+  top: 30px;
+  left: 8vw;
+  width: 12vw;
+}
 
-
+.img2 {
+  position: absolute;
+  top: 30px;
+  right: 12vw;
+  width: 10vw;
+}
 

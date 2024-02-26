@@ -16,8 +16,10 @@ import {ReactiveFormsModule} from "@angular/forms";
 import {MatCardModule} from "@angular/material/card";
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
-import { GaleryComponent } from './galery/galery.component';
+import { GalleryComponent } from './gallery/gallery.component';
 import {NgxTranslateModule} from "./translate/ngx-translate.module";
+import { FaqComponent } from './faq/faq.component';
+import {MatExpansionModule} from "@angular/material/expansion";
 
 @NgModule({
   declarations: [
@@ -26,7 +28,8 @@ import {NgxTranslateModule} from "./translate/ngx-translate.module";
     ContactComponent,
     FooterComponent,
     HomeComponent,
-    GaleryComponent
+    GalleryComponent,
+    FaqComponent
   ],
   imports: [
     BrowserModule,
@@ -39,11 +42,12 @@ import {NgxTranslateModule} from "./translate/ngx-translate.module";
     MatButtonModule,
     MatSelectModule,
     MatStepperModule,
+    MatExpansionModule,
     ReactiveFormsModule,
     MatCardModule,
     NgxTranslateModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
 export class AppModule { }

@@ -1,50 +1,58 @@
-:host {
-  position: sticky;
-  position: -webkit-sticky; /* For macOS/iOS Safari */
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 100;
-}
-
-.button-styling {
-  font-family: Silom;
-  color: oldlace;
-  font-size: x-large;
-}
-
-.button-styling:hover {
-  color: white;
-  font-size: xx-large;
+.spectrumBackground {
+  background:
+    linear-gradient(#ffc3bd, transparent),
+    linear-gradient(to top left, #9bc7fc, transparent),
+    linear-gradient(to top right, #adffb0, transparent);
+  background-blend-mode: screen;
+  min-height: 100%;
 }
 
 .header-styling {
   background-color: transparent !important;
   margin: auto;
-  position: relative;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 15px;
 }
 
 .logo-styling {
-  background-color: transparent;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  font-family: Silom;
+  color: #ff4500;
+  font-size: 10vw;
+  line-height: 10vw;
+  margin-bottom: 0;
+  cursor: pointer;
+}
+
+.logo-underline-styling {
+  font-family: Helvetica, sans-serif;
+  font-weight: lighter;
+  color: #ff4500;
+  font-size: 3vw;
+  line-height: 3vw;
+  cursor: pointer;
 }
 
 .menu-styling {
+  margin-top: 30px;
+  border-top: dotted 5px blueviolet;
   background-color: transparent;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 
-::ng-deep .mat-button-focus-overlay {
-  display: none !important;
+.menu-button-styling {
+  font-family: Helvetica, sans-serif;
+  border-radius: 15px;
+  color: #ff4500;
+  margin: 30px 10px 10px 10px;
+  background-color: white;
+  font-size: 16px !important;
 }
 
-::ng-deep .mat-button-ripple {
-  display: none;
-}
+
+
 
 

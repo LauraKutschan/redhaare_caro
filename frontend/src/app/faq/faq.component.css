@@ -1,0 +1,33 @@
+
+.wrapper {
+  max-width: 1250px;
+  margin: auto auto;
+  padding: 30px;
+}
+
+.accordion-styling {
+}
+
+mat-expansion-panel {
+  background-color: rgba(80, 20, 80, 0.08);
+  color: #7b26cb !important;
+  border-radius: 15px !important;
+  margin-top: 15px;
+  padding: 7.5px;
+}
+
+p {
+  font-family: Helvetica, sans-serif !important;
+  font-size: 18px !important;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  line-height: 30px;
+}
+
+mat-panel-title {
+  color: #7b26cb !important;
+  font-family: Helvetica, sans-serif !important;
+  font-size: 20px !important;
+  letter-spacing: 1px;
+  line-height: 30px;
+}

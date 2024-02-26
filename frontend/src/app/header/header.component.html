@@ -1,7 +1,16 @@
-<header class="header-styling">
-    <div class="menu-styling">
-      <button class="button-styling" routerLink="home" mat-button>{{ "header.home" | translate}}</button>
-      <button class="button-styling" routerLink="galery" mat-button>{{ "header.galery" | translate}}</button>
-      <button class="button-styling" routerLink="contact" mat-button>{{ "header.contact" | translate}}</button>
+<div class="spectrumBackground">
+  <header class="header-styling">
+    <div class="logo-wrapper">
+      <p class="logo-styling" routerLink="home" mat-button>REDHAARE</p>
+      <p class="logo-underline-styling">fine line and micro-realistic tattoos</p>
     </div>
-</header>
+    <div class="menu-styling">
+      <button class="menu-button-styling" routerLink="/" mat-button>{{ "header.home" | translate}}</button>
+      <button class="menu-button-styling" routerLink="gallery" mat-button>{{ "header.galery" | translate}}</button>
+      <button class="menu-button-styling" routerLink="contact" mat-button>{{ "header.contact" | translate}}</button>
+      <button class="menu-button-styling" routerLink="faq" mat-button>{{ "header.faq" | translate}}</button>
+    </div>
+  </header>
+  <router-outlet class="content"></router-outlet>
+  <app-footer class="footer"></app-footer>
+</div>

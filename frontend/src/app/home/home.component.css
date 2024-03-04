@@ -19,6 +19,10 @@
   box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
 }
 
+.grid-element:hover {
+  box-shadow: rgba(256, 0, 250, 0.15) 0px 5px 8px, rgba(256, 0, 0, 0.25) 0px 5px 8px;
+}
+
 .grid-element-image {
   border-radius: 15px;
 }
@@ -32,6 +36,12 @@ img {
 @media screen and (max-width: 1144px) {
   .grid-container {
     grid-template-columns: auto;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .grid-container {
+    column-gap: 80px;
   }
 }
 
@@ -49,4 +59,32 @@ img {
   line-height: 30px;
   letter-spacing: 1px;
   margin-top: 30px;
+}
+
+/* Animate the line from the left */
+.headline {
+  position: relative;
+  text-decoration: none;
+}
+
+.grid-element:hover .headline {
+  color: red;
+}
+
+.grid-element:hover::before .headline {
+  transform: scaleX(1);
+}
+
+.grid-element::before .headline {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: hotpink;
+  transform: scaleX(0);
+  transform-origin: top left;
+  transition: transform 0.3s ease;
 }

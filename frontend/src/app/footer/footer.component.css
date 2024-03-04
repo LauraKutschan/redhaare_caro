@@ -3,21 +3,20 @@
   padding-top: 2%;
   padding-bottom: 1%;
   text-align: center;
-  color: hotpink;
+  color: grey;
 }
 
 button {
-  color: hotpink;
   font-weight: lighter;
 }
 
 button:hover {
   font-size: medium;
-  color: palevioletred;
+  color: hotpink;
 }
 
 .en-button, .de-button {
-  padding: 0 !important;
+  padding: 4px !important;
   margin: 0 !important;
 }
 

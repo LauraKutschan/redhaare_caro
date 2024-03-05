@@ -11,8 +11,9 @@
     "aboutMeText": "Hallo, ich bin Caro und im Alter von 19 Jahren habe ich das Tätowieren für mich entdeckt. Seit dem darf ich dieser wundervollen Berufung nachgehen, die Haut von Menschen mit Tattoos verzieren und so ihrer inneren Welt Ausdruck verleihen. Mit der Liebe zum Detail kreiere ich zarte Fineline Motive und fotorealistische Tattoos, diese auch gerne in farbig. Ich würde mich freuen dich begrüßen zu dürfen!",
     "theStudio": "DAS STUDIO",
     "theStudioText": "Seit November 2022 tätowiere ich im privaten Tattoo Atelier ‚ART CONCEPT‘ von Saby (@sabyminaart), welches in Berlin-Friedrichshagen, nahe der Bölschestraße, liegt. Das Studio bietet eine private und gemütliche Atmosphäre, in der du dich ganz wohl und heimisch fühlen darfst. Hier haben wir auch einen separaten Raum für deinen Tattootermin, sodass wir uns frei und ungestört auf dich und dein Tattoo fokussieren können.",
+    "location": "GENAUER ANSEHEN",
     "myStyle": "MEIN STIL",
-    "myStyleText": "Seit November 2022 tätowiere ich im privaten Tattoo Atelier ‚ART CONCEPT‘ von Saby (@sabyminaart), welches in Berlin-Friedrichshagen, nahe der Bölschestraße, liegt. Das Studio bietet eine private und gemütliche Atmosphäre, in der du dich ganz wohl und heimisch fühlen darfst. Hier haben wir auch einen separaten Raum für deinen Tattootermin, sodass wir uns frei und ungestört auf dich und dein Tattoo fokussieren können."
+    "myStyleText": "Seit November 2022 tätowiere ich im privaten Tattoo Atelier ‚ART CONCEPT‘ von Saby (@sabyminaart), welches in Berlin-Friedrichshagen, nahe der Bölschestraße, liegt. Das Studio bietet eine private und gemütliche Atmosphäre, in der du dich ganz wohl und heimisch fühlen darfst."
 
   },
 
@@ -37,5 +38,12 @@
     "answer9": "Alle Tattoofarben, die ich benutze, entsprechen der neuesten Tätowiermittelverordnung (REACH) und sind VEGAN. Auch versuche ich, statt Plastik, auf umweltfreundliche und biologisch abbaubare Alternativen zurückzugreifen. \uD83C\uDF31\n",
     "question10": "Wohin kann ich mich bei Fragen wenden?",
     "answer10": "Hast du noch offene Fragen? Dann sende mir gerne jederzeit eine E-Mail an redhaaretattoo@gmail.com oder eine Direktnachricht auf Instagram @redhaare. Ich bemühe mich, dir so schnell wie möglich zu antworten :)"
+  },
+
+  "filter": {
+    "filter1": "Tiere",
+    "filter2": "Natur",
+    "filter3": "Fantasie",
+    "filter4": "Kunst"
   }
 }

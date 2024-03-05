@@ -1,6 +1,12 @@
 <div class="footer-styling">
-  <button mat-button>IMPRESSUM </button>
-  <button class="en-button" mat-button>EN</button>
+  <button mat-button routerLink="impressum">IMPRESSUM</button>
+  <button [ngStyle]="{'color': currentLang === 'en' ? 'hotpink' : 'grey'}"
+          class="en-button"
+          (click)="changeLanguageToEnglish()"
+          mat-button>EN</button>
   |
-  <button class="de-button" mat-button>DE</button>
+  <button [ngStyle]="{'color': currentLang === 'de' ? 'hotpink' : 'grey'}"
+          class="de-button"
+          (click)="changeLanguageToGerman()"
+          mat-button>DE</button>
 </div>

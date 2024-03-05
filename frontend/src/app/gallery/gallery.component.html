@@ -1,3 +1,13 @@
+<button (click)="serviceCall()"> call Service </button>
+<p> {{imageURLs}}</p>
+<div *ngFor="let image of imageURLs" class="gallery-styling">
+  <img src="{{image}}">
+</div>
+
+<button mat-raised-button class="filter-button" (click)="openFilter()">
+  <mat-icon>tune</mat-icon>
+</button>
+
 <div class="row">
   <div class="column">
     <img src="../../assets/images/img1.jpeg">

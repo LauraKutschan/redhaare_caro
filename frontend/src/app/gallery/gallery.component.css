@@ -49,3 +49,21 @@ img {
   height: 22vw;
   object-fit: cover;
 }
+
+.gallery-styling {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  column-gap: 10px;
+  row-gap: 10px;
+}
+
+.filter-button {
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+  color: #7b26cb;
+  background-color: #FFFFFF;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+}

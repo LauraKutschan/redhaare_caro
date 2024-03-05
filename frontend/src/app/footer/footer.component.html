@@ -1,5 +1,5 @@
 <div class="footer-styling">
-  <button mat-button>IMPRESSUM </button>
+  <button mat-button routerLink="impressum">IMPRESSUM</button>
   <button [ngStyle]="{'color': currentLang === 'en' ? 'hotpink' : 'grey'}"
           class="en-button"
           (click)="changeLanguageToEnglish()"

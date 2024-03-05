@@ -12,7 +12,7 @@ import {MatSelectModule} from "@angular/material/select";
 import {RouterModule} from "@angular/router";
 import { ContactComponent } from './contact/contact.component';
 import {MatStepperModule} from "@angular/material/stepper";
-import {ReactiveFormsModule} from "@angular/forms";
+import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import {MatCardModule} from "@angular/material/card";
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
@@ -20,6 +20,13 @@ import { GalleryComponent } from './gallery/gallery.component';
 import {NgxTranslateModule} from "./translate/ngx-translate.module";
 import { FaqComponent } from './faq/faq.component';
 import {MatExpansionModule} from "@angular/material/expansion";
+import { FilterComponent } from './gallery/filter/filter.component';
+import {JsonPipe} from "@angular/common";
+import {MatCheckboxModule} from "@angular/material/checkbox";
+import {MatBottomSheet, MatBottomSheetModule, MatBottomSheetRef} from "@angular/material/bottom-sheet";
+import {MatListModule} from "@angular/material/list";
+import {MatDialogModule} from "@angular/material/dialog";
+import { ImpressumComponent } from './impressum/impressum.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +36,9 @@ import {MatExpansionModule} from "@angular/material/expansion";
     FooterComponent,
     HomeComponent,
     GalleryComponent,
-    FaqComponent
+    FaqComponent,
+    FilterComponent,
+    ImpressumComponent
   ],
   imports: [
     BrowserModule,
@@ -46,6 +55,10 @@ import {MatExpansionModule} from "@angular/material/expansion";
     ReactiveFormsModule,
     MatCardModule,
     NgxTranslateModule,
+    FormsModule,
+    MatCheckboxModule,
+    MatListModule,
+    MatDialogModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

@@ -20,7 +20,7 @@
 }
 
 .grid-element:hover {
-  box-shadow: rgba(256, 0, 250, 0.15) 0px 5px 8px, rgba(256, 0, 0, 0.25) 0px 5px 8px;
+  box-shadow: rgba(255, 177, 0, 0.15) 0px 5px 8px, rgba(255, 177, 0, 0.25) 0px 5px 8px;
 }
 
 .grid-element-image {
@@ -47,8 +47,9 @@ img {
 
 .headline {
   color: #7b26cb;
-  font-family: Helvetica, sans-serif;
+  font-family: Silom;
   font-size: 25px;
+  letter-spacing: 1px;
 }
 
 .content {
@@ -68,7 +69,13 @@ img {
 }
 
 .grid-element:hover .headline {
-  color: red;
+  color: #f54501;
+}
+
+.grid-element:hover .location-button {
+  background-color: orange;
+  border: none;
+  color: #FFFFFF;
 }
 
 .grid-element:hover::before .headline {
@@ -88,3 +95,20 @@ img {
   transform-origin: top left;
   transition: transform 0.3s ease;
 }
+
+.location-button {
+  border-radius: 15px;
+  background-color: transparent;
+  border: solid 1.5px mediumpurple;
+  color: #7b26cb;
+  box-shadow: none;
+  padding: 10px;
+  width: 300px;
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  margin-top: 30px;
+}
+
+

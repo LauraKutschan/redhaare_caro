@@ -12,6 +12,20 @@
       <button class="menu-button-styling" routerLink="contact" mat-button>{{ "header.contact" | translate}}</button>
       <button class="menu-button-styling" routerLink="faq" mat-button>{{ "header.faq" | translate}}</button>
     </div>
+    <div class="mobile-menu-styling">
+      <button class="menu-button-styling" routerLink="/" mat-button>
+        <mat-icon>home</mat-icon>
+      </button>
+      <button class="menu-button-styling" routerLink="gallery" mat-button>
+        <mat-icon>photo_library</mat-icon>
+      </button>
+      <button class="menu-button-styling" routerLink="contact" mat-button>
+        <mat-icon>email</mat-icon>
+      </button>
+      <button class="menu-button-styling" routerLink="faq" mat-button>
+        <mat-icon>help</mat-icon>
+      </button>
+    </div>
   </header>
   <router-outlet class="content"></router-outlet>
   <app-footer class="footer"></app-footer>

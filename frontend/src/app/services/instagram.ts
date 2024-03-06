@@ -7,9 +7,9 @@ import { Observable } from 'rxjs';
 })
 export class InstagramService {
 
-  private accessToken = 'EAAE2UgLDKIcBO2ZAp2yC2rGfKTGhZARr8zgda86fwhR061kDZAYxhvuwoq6ZAUO6Jgvo6pAiam3nZAXOwS3EBpBaq8MoXZCa8NPzylk5oQBDnopFiYoOjgoUGAXHBenZBuiJaSZCNmdr6Oajyn4ifXkmNZAatayK6L5ZBH5ZAaVeZCjmMAoJKz11J2fov3cCcDSimUObAdSYU4qAnq8oZBMkUoKU5YozhmAZDZD';
+  private accessToken = 'EAAE2UgLDKIcBO5JZAHfTbldjtDESxSHNZBZB08Iy7BfG6BDtLmSAxOestObPSTrikFHNPdX6x4Ychd6NqmtyOkRnhhu0tm4GHh0Sgs8w8PXyRvZBRQpuu1hqSd07mC6qv6T4byZAtBiZAnUVEI4Cim9XUHBnz0ZBZAo3ZB2ZBYPCkrnsv6z37H1dtiPxeQR7XdE3YtrmjTcGIfHyG1gNs1nMQdJ7gMRkEZD';
   private profileId = '17841407654713323'; // ID des Business-Profils
-  private fields = 'id,caption,media_type,media_url,username,timestamp'
+  private fields = 'id,caption,media_type,media_url,timestamp'
 
   constructor(private http: HttpClient) {
   }

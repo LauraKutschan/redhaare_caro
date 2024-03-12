@@ -1,0 +1,11 @@
+
+<mat-nav-list>
+  <!-- Loop through the filters array to generate list items dynamically -->
+  <ng-container *ngFor="let item of filter; let i = index">
+    <a mat-list-item (click)="selectFilter(item)">
+      <!-- Use index-based translation keys to dynamically translate filter names -->
+      <span matListItemTitle>{{ 'filter.filter' + (i + 1) | translate }}</span>
+    </a>
+  </ng-container>
+</mat-nav-list>
+

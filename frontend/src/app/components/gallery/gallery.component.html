@@ -1,0 +1,21 @@
+<div class="wrapper">
+  <!-- Loading indicator -->
+  <div *ngIf="isLoading" class="heart"></div>
+
+  <!-- Error message -->
+  <div *ngIf="error" class="error">
+    <p class="content">{{ 'gallery.error' | translate }}</p>
+  </div>
+
+  <!-- Gallery -->
+  <ng-container *ngIf="!isLoading && !error">
+    <div class="gallery-styling">
+      <img *ngFor="let m of savedMedia" [lazyLoad]="m.media_url" src="./assets/images/stars1.png" alt="Tattoo design" (click)="enlargeImage(m)">
+    </div>
+
+    <!-- Filter button -->
+    <button *ngIf="savedMedia.length > 0" mat-raised-button class="filter-button" (click)="openFilter()">
+      <mat-icon>tune</mat-icon>
+    </button>
+  </ng-container>
+</div>

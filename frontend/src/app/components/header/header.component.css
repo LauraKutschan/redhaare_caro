@@ -2,7 +2,7 @@
   background:
     linear-gradient(#ffd1cd, transparent),
     linear-gradient(to top left, #ffdda2, transparent),
-    linear-gradient(to top right, #affca4, transparent);
+    linear-gradient(to top right, #f5d0da, transparent);
   background-blend-mode: screen;
   min-height: 100%;
 }
@@ -68,14 +68,14 @@
   position: absolute;
   top: 30px;
   left: 8vw;
-  width: 12vw;
+  width: 10vw;
 }
 
 .img2 {
   position: absolute;
   top: 30px;
   right: 12vw;
-  width: 10vw;
+  width: 8vw;
 }
 
 @media screen and (max-width: 500px) {
@@ -85,7 +85,7 @@
 
   .mobile-menu-styling {
     margin-top: 30px;
-    border-top: dotted 5px blueviolet;
+    border-top: dotted 5px #dcc3fe;
     background-color: transparent;
     display: flex;
     align-items: center;
@@ -117,3 +117,7 @@
   }
 }
 
+.active {
+  border: solid 2px #f54501;
+  font-weight: bold;
+}

@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import {ContactComponent} from "./contact/contact.component";
-import {HomeComponent} from "./home/home.component";
-import {GalleryComponent} from "./gallery/gallery.component";
-import {FaqComponent} from "./faq/faq.component";
-import {ImpressumComponent} from "./impressum/impressum.component";
+import {ContactComponent} from "./components/contact/contact.component";
+import {HomeComponent} from "./components/home/home.component";
+import {GalleryComponent} from "./components/gallery/gallery.component";
+import {FaqComponent} from "./components/faq/faq.component";
+import {ImpressumComponent} from "./components/impressum/impressum.component";
 
 const routes: Routes = [
   {

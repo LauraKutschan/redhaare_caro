@@ -17,6 +17,24 @@
 
   },
 
+  "gallery": {
+    "error": "Something went wrong. Please try again later."
+  },
+
+  "enlargedImage": {
+    "commentButton": "LEAVE A COMMENT",
+    "closeButton": "CLOSE"
+  },
+
+  "contact": {
+    "instagramTitle": "Instagram",
+    "mailTitle": "E-Mail",
+    "instagram": "Send me a direct message on instagram",
+    "mail": "Or send me an email with your request",
+    "instagramButton": "@redhaare",
+    "mailButton": "redhaaretattoo@gmail.com"
+  },
+
   "faq": {
     "question1": "Wie kann ich einen Termin buchen und was muss ich beachten?",
     "answer1": "Einen Tattootermin kannst du immer zu bestimmten Zeitpunkten buchen. Die genauen Buchungsphasen, in denen du einen Termin anfragen kannst, findest du auf meiner Instagram Seite. Andernfalls kannst du die Buchungstermine einfach per E-Mail erfragen.\nWenn du mir in der Buchungsphase deine Tattooanfrage sendest, dann ist es sehr wichtig, dass diese vollständig ist und alle Informationen beinhaltet. Hier nochmal alle wichtigen Punkte, die ich von dir brauche, auf einen Blick:\n- Dein Name (opt. Pronomen)\n- Tattoomotiv Beschreibung\n- ggf.Beispielbilder\n- Größe (cm) und Körperstelle (Bild)\n- Deine freien Termine (Mo-Fr)",
@@ -35,7 +53,7 @@
     "question8": "Wann bekomme ich KEIN Tattoo von dir gestochen?",
     "answer8": "Ich werde dich NICHT tätowieren, wenn du dich in Stillzeit oder Schwangerschaft befindest. Ebenso musst du für deinen Tattootermin zu 100% gesund und erholt sein. Ich steche keine Tattoos bei Personen unter 18 Jahren, auch nicht mit Einverständniserklärung.",
     "question9": "Sind deine Farben/ Materialien vegan?",
-    "answer9": "Alle Tattoofarben, die ich benutze, entsprechen der neuesten Tätowiermittelverordnung (REACH) und sind VEGAN. Auch versuche ich, statt Plastik, auf umweltfreundliche und biologisch abbaubare Alternativen zurückzugreifen. \uD83C\uDF31\n",
+    "answer9": "Alle Tattoofarben, die ich benutze, entsprechen der neuesten Tätowiermittelverordnung (REACH) und sind VEGAN. Auch versuche ich, statt Plastik, auf umweltfreundliche und biologisch abbaubare Alternativen zurückzugreifen.",
     "question10": "Wohin kann ich mich bei Fragen wenden?",
     "answer10": "Hast du noch offene Fragen? Dann sende mir gerne jederzeit eine E-Mail an redhaaretattoo@gmail.com oder eine Direktnachricht auf Instagram @redhaare. Ich bemühe mich, dir so schnell wie möglich zu antworten :)"
   },

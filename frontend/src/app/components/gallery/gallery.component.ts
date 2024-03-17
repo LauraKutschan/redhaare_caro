@@ -59,7 +59,7 @@ export class GalleryComponent implements OnInit {
    */
   stopLoading(media: Media[]) {
     this.isLoading = false;
-    this.savedMedia = media;
+    this.savedMedia = media.reverse();
   }
 
   /**
@@ -92,7 +92,7 @@ export class GalleryComponent implements OnInit {
     const enlargedImageRef = this.enlargedImage.open(EnlargedImageComponent, {
       width: '100vw',
       maxWidth: '1244px',
-      data: { media_url: media.media_url, permalink: media.permalink }
+      data: {media_url: media.media_url, permalink: media.permalink}
     });
   }
 }

@@ -90,7 +90,6 @@ export class GalleryComponent implements OnInit {
    */
   enlargeImage(media: Media) {
     const enlargedImageRef = this.enlargedImage.open(EnlargedImageComponent, {
-      width: '100vw',
       maxWidth: '1244px',
       data: {media_url: media.media_url, permalink: media.permalink}
     });

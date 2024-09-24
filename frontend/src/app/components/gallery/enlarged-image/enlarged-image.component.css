@@ -1,12 +1,24 @@
-.wrapper {
-  width: 100%;
-}
 
 img {
-  height: 60vh;
-  width: 88vw;
-  object-fit: cover;
-  margin: auto;
+  max-height: 80vh;
+}
+
+@media screen and (max-width: 620px) {
+  img {
+    max-height: 70vh;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  img {
+    max-height: 60vh;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  img {
+    max-height: 52vh;
+  }
 }
 
 .button-wrapper {

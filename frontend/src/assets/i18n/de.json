@@ -13,31 +13,49 @@
     "theStudioText": "Seit November 2022 tätowiere ich im privaten Tattoo Atelier ‚ART CONCEPT‘ von Saby (@sabyminaart), welches in Berlin-Friedrichshagen, nahe der Bölschestraße, liegt. Das Studio bietet eine private und gemütliche Atmosphäre, in der du dich ganz wohl und heimisch fühlen darfst. Hier haben wir auch einen separaten Raum für deinen Tattootermin, sodass wir uns frei und ungestört auf dich und dein Tattoo fokussieren können.",
     "location": "GENAUER ANSEHEN",
     "myStyle": "MEIN STIL",
-    "myStyleText": "Seit November 2022 tätowiere ich im privaten Tattoo Atelier ‚ART CONCEPT‘ von Saby (@sabyminaart), welches in Berlin-Friedrichshagen, nahe der Bölschestraße, liegt. Das Studio bietet eine private und gemütliche Atmosphäre, in der du dich ganz wohl und heimisch fühlen darfst."
+    "myStyleText": "Meine Arbeiten ordne ich den Stilen Realismus und Fineline zu. Ich habe mich darauf\nspezialisiert möglichst fotorealistisch mit höchster Präzision und Detailgenauigkeit zu stechen.\nZu meiner Arbeit gehört das tätowieren von Blumen, Portraits von (Haus-)Tieren oder Menschen,\nsowie feinen Linienarbeiten, darunter Schriftzüge und andere feine Arbeiten. Ich tätowiere in\nFarbe und Schwarz-Weiß. Entdecke meine Arbeiten in der Galerie und lass dich inspirieren!"
 
   },
 
+  "gallery": {
+    "error": "Es ist etwas schief gelaufen. Versuche es bitte später erneut."
+  },
+
+  "enlargedImage": {
+    "commentButton": "KOMMENTIERE",
+    "closeButton": "SCHLIEßEN"
+  },
+
+  "contact": {
+    "instagramTitle": "Instagram",
+    "mailTitle": "E-Mail",
+    "instagram": "Schreibe mir eine Direktnachricht auf Instagram",
+    "mail": "Oder schicke mir eine E-Mail mit deiner Anfrage",
+    "instagramButton": "@redhaare",
+    "mailButton": "redhaaretattoo@gmail.com"
+  },
+
   "faq": {
-    "question1": "Wie kann ich einen Termin buchen und was muss ich beachten?",
-    "answer1": "Einen Tattootermin kannst du immer zu bestimmten Zeitpunkten buchen. Die genauen Buchungsphasen, in denen du einen Termin anfragen kannst, findest du auf meiner Instagram Seite. Andernfalls kannst du die Buchungstermine einfach per E-Mail erfragen.\nWenn du mir in der Buchungsphase deine Tattooanfrage sendest, dann ist es sehr wichtig, dass diese vollständig ist und alle Informationen beinhaltet. Hier nochmal alle wichtigen Punkte, die ich von dir brauche, auf einen Blick:\n- Dein Name (opt. Pronomen)\n- Tattoomotiv Beschreibung\n- ggf.Beispielbilder\n- Größe (cm) und Körperstelle (Bild)\n- Deine freien Termine (Mo-Fr)",
+    "question1": "Wie kann ich einen Termin bei dir buchen?",
+    "answer1": "Einen Termin kannst du ganz einfach buchen, indem du mir deine Tattooanfrage per E-Mail an redhaaretattoo@gmail.com oder per Direktnachricht auf Instagram an @redhaare sendest. \nBitte beachte bei deiner Anfrage, dass darin alle folgenden Informationen enthalten sind: Dein Name, Tattoomotiv Beschreibung, ggf. Beispielbilder, Größe (cm) und Körperstelle (Bild), Deine freien Termine (Mo-Fr). Wenn du dir noch unsicher über einige Punkte, wie Motiv, Größe oder Stelle bist, dann schreibe dies einfach dazu. Daraufhin werde ich dir innerhalb von zwei Wochen einen unverbindlichen Preisvorschlag senden.",
     "question2": "Zu welchen Uhrzeiten tätowierst du?",
-    "answer2": "Ich tätowiere an den Wochentagen von Montag bis Freitag. Samstag und Sonntag tätowiere ich grundsätzlich NICHT, auch nicht in Ausnahme.\nDie Uhrzeit des Termins kann variieren. In der Regel beginne ich um 9 Uhr früh. Je nach zeitlicher Verfügbarkeit kann ich dir auch einen Nachmittagstermin anbieten, aber nur, wenn das Projekt nicht zu groß ist und viel Zeit in Anspruch nimmt, denn dann starte ich lieber früher :)",
+    "answer2": "Ich tätowiere von Montag bis Freitag. In der Regel beginnt ein Termin um 9 Uhr früh, die\nUhrzeit kann aber je nach zeitlicher Verfügbarkeit variieren.",
     "question3": "Wo genau tätowierst du?",
-    "answer3": "Das Studio ,,ART CONCEPT´´, in welchem ich tätowiere, liegt in Friedrichshagen im Bezirk Treptow-Köpenick. Mit den öffentlichen Verkehrsmitteln (S3 oder Tram 61) kannst du das Studio super gut erreichen. Parkplätze sind in der Straße auch nahezu immer zu finden.",
+    "answer3": "Das Studio ‚ART CONCEPT‘, in welchem ich tätowiere, liegt in Friedrichshagen im Bezirk\nTreptow-Köpenick in Berlin. Mit den öffentlichen Verkehrsmitteln (S3 oder Tram 61) kannst du\ndas Studio super gut erreichen. Parkplätze sind in der Straße auch nahezu immer zu finden.",
     "question4": "Wie viel kostet ein Tattoo?",
-    "answer4": "Der Preis eines Tattoos ist von verschiedenen Faktoren, wie Größe, Körperstelle, technischer und zeitlicher Aufwand und Detailreichtum abhängig. Der Startpreis für ein Tattoo bei mir liegt bei 150€. Einen unverbindlichen Preisvorschlag kannst du jederzeit erfragen. Sende mir dafür einfach eine E-Mail an redhaaretattoo@gmail.com oder eine Direktnachricht auf Instagram @redhaare. Bitte beschreibe mir dafür deine Tattoo-Idee so genau, wie möglich.",
+    "answer4": "Der Preis eines Tattoos ist von verschiedenen Faktoren, wie Größe, Körperstelle, technischer und\nzeitlicher Aufwand und Detailreichtum abhängig. Der Startpreis für ein Tattoo bei mir liegt bei\n150€. Einen unverbindlichen Preisvorschlag kannst du jederzeit erfragen. Sende mir dafür\neinfach eine E-Mail an redhaaretattoo@gmail.com oder eine Direktnachricht auf Instagram an\n@redhaare. Bitte beschreibe mir dafür deine Tattooidee so genau wie möglich.",
     "question5": "Wie läuft ein Termin ab und was muss ich bei meinem ersten Tattoo beachten?",
-    "answer5": "An deinem Tattootermin nehmen wir uns genug Zeit, um dein Motiv zu besprechen und das perfekte Design für dich zu finden. Auch erkläre ich dir zu Beginn alles Wichtige, was du über den Tattooprozess wissen musst und beantworte deine Fragen. Generell bereite ich zu unserem Termin, basierend auf deinen vorher gesendeten Vorstellungen, ein Tattoomotiv für dich vor. Wir haben dann genug Zeit, um Änderungen vorzunehmen, sodass es dir zu 100% gefällt. Im Anschluss platzieren wir die Tattoovorlage auf deinem Körper, dabei haben wir auch genug Zeit und probieren solange herum, bis wir die perfekte Stelle gefunden haben. Anschließend wird das Tattoo gestochen. Dabei können wir jederzeit Pausen machen. Im Anschluss erkläre ich dir nochmal alle wichtigen Pflegehinweise :)",
+    "answer5": "Wenn du einen Tattootermin mit mir vereinbart hast, dann sende ich dir eine umfangreiche Info-\nPDF, die dich optimal auf den Tattootermin vorbereitet und alle wichtigen Informationen,\ndarunter zu Vorbereitung, Pflege und Risiken, enthält. Wenn dies dein erstes Tattoo ist, findest\ndu dort alle Informationen, die wichtig für dich sein könnten. Außer dass du auf ein paar Dinge\nachten solltest (z.B. Vermeidung von bestimmten Medikamenten vor dem Termin), musst du\ndich nicht speziell auf dein Tattoo vorbereiten.\nAnhand der Beschreibung deines Tattoowunsches in deiner Anfrage bereite ich zum Termin ein\nMotiv für dich vor. Wir haben dann genug Zeit, um Änderungen vorzunehmen, bis es dir zu\n100% gefällt. Im Anschluss platzieren wir die Tattoovorlage auf deinem Körper und wenn wir die\nperfekte Stelle für dich gefunden haben, wird das Tattoo gestochen. Dabei können wir jederzeit\nPausen machen. Zum Schluss erkläre ich dir nochmal alle wichtigen Pflegehinweise :)",
     "question6": "Tätowierst du auch Narben oder Cover Ups?",
-    "answer6": "Ja, ich tätowiere auch über Narben und steche Cover Ups. Ob ich dein Projekt umsetzen kann, hängt aber von der Beschaffenheit der Narben oder des alten Tattoos ab. Am besten sendest du mir ein Bild von der betroffenen Körperstelle und dann schauen wir gemeinsam, ob wir deinen Tattoowunsch umsetzen und was wir daraus zaubern können :)",
+    "answer6": "Ja, ich tätowiere auch über Narben und steche Cover Ups. Ob ich dein Projekt umsetzen kann,\nhängt aber von der Beschaffenheit der Narben oder des alten Tattoos ab. Am besten sendest du\nmir ein Bild von der betroffenen Körperstelle und dann schauen wir gemeinsam, ob wir deinen\nTattoowunsch umsetzen und was wir daraus zaubern können :)",
     "question7": "Kann ich ein buntes Tattoo bekommen?",
-    "answer7": "Ja, du kannst ein buntes Tattoo bekommen. Die EU-Chemikalienverordnung ‚REACH‘, welche bestimmte Inhaltsstoffe in Tattoofarben verbietet, trat am 01. Januar 2023 in Kraft. Seit dem gibt es jedoch neue Farben auf dem Markt, die diese besagten Stoffe nicht enthalten und somit dieser Verordnung entsprechen und legal sind. Deinem farbigen Tattoo steht also auf gesetzlicher Ebene nichts im Wege :)",
+    "answer7": "Ja, du kannst ein buntes Tattoo bekommen. Die EU-Chemikalienverordnung ‚REACH‘, welche\nbestimmte Inhaltsstoffe in Tattoofarben verbietet, trat am 01. Januar 2023 in Kraft. Seit dem gibt\nes jedoch neue Farben auf dem Markt, die diese besagten Stoffe nicht enthalten und somit\ndieser Verordnung entsprechen und legal sind. Deinem farbigen Tattoo steht also auf\ngesetzlicher Ebene nichts im Wege :)",
     "question8": "Wann bekomme ich KEIN Tattoo von dir gestochen?",
-    "answer8": "Ich werde dich NICHT tätowieren, wenn du dich in Stillzeit oder Schwangerschaft befindest. Ebenso musst du für deinen Tattootermin zu 100% gesund und erholt sein. Ich steche keine Tattoos bei Personen unter 18 Jahren, auch nicht mit Einverständniserklärung.",
+    "answer8": "Ich werde dich nicht tätowieren, wenn du dich in Stillzeit oder Schwangerschaft befindest.\nEbenso musst du für deinen Tattootermin gesund und erholt sein. Ich steche keine Tattoos bei\nPersonen unter 18 Jahren, auch nicht mit Einverständniserklärung.",
     "question9": "Sind deine Farben/ Materialien vegan?",
-    "answer9": "Alle Tattoofarben, die ich benutze, entsprechen der neuesten Tätowiermittelverordnung (REACH) und sind VEGAN. Auch versuche ich, statt Plastik, auf umweltfreundliche und biologisch abbaubare Alternativen zurückzugreifen. \uD83C\uDF31\n",
+    "answer9": "Alle Tattoofarben, die ich benutze, entsprechen der neuesten Tätowiermittelverordnung\n(REACH) und sind VEGAN. Auch versuche ich, statt Plastik, auf umweltfreundliche und\nbiologisch abbaubare Alternativen zurückzugreifen.",
     "question10": "Wohin kann ich mich bei Fragen wenden?",
-    "answer10": "Hast du noch offene Fragen? Dann sende mir gerne jederzeit eine E-Mail an redhaaretattoo@gmail.com oder eine Direktnachricht auf Instagram @redhaare. Ich bemühe mich, dir so schnell wie möglich zu antworten :)"
+    "answer10": "Hast du noch offene Fragen, die ich hier nicht beantwortet habe? Dann sende mir gerne\njederzeit eine E-Mail an redhaaretattoo@gmail.com oder eine Direktnachricht auf Instagram\n@redhaare.\nIch freue mich von dir zu hören :)"
   },
 
   "filter": {

@@ -1,0 +1,115 @@
+.wrapper {
+  max-width: 1250px;
+  margin: auto auto;
+  padding: 0 30px 30px 30px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 60px;
+  row-gap: 60px;
+  padding: 15px;
+}
+
+.grid-element {
+  background-color: rgba(255, 255, 255, 0.46);
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.grid-element:hover {
+  box-shadow: rgba(255, 177, 0, 0.15) 0px 5px 8px, rgba(255, 177, 0, 0.25) 0px 5px 8px;
+}
+
+.grid-element-image {
+  border-radius: 15px;
+}
+
+img {
+  object-fit: cover;
+  object-position: 0 10%;
+  border-radius: 15px;
+}
+
+@media screen and (max-width: 1144px) {
+  .grid-container {
+    grid-template-columns: auto;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .grid-container {
+    column-gap: 80px;
+  }
+}
+
+.headline {
+  color: #7b26cb;
+  font-family: Silom;
+  font-size: 25px;
+  letter-spacing: 1px;
+}
+
+.content {
+  color: #686968;
+  font-family: Helvetica, sans-serif;
+  font-weight: lighter;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 1px;
+  margin-top: 30px;
+}
+
+/* Animate the line from the left */
+.headline {
+  position: relative;
+  text-decoration: none;
+}
+
+.grid-element:hover .headline {
+  color: #f54501;
+}
+
+.grid-element:hover .location-button {
+  background-color: orange;
+  border: none;
+  color: #FFFFFF;
+}
+
+.grid-element:hover::before .headline {
+  transform: scaleX(1);
+}
+
+.grid-element::before .headline {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: hotpink;
+  transform: scaleX(0);
+  transform-origin: top left;
+  transition: transform 0.3s ease;
+}
+
+.location-button {
+  border-radius: 15px;
+  background-color: transparent;
+  border: solid 1.5px mediumpurple;
+  color: #7b26cb;
+  box-shadow: none;
+  padding: 10px;
+  width: 240px;
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+

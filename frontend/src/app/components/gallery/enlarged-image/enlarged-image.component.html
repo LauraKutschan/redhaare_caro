@@ -1,0 +1,13 @@
+
+<div class="wrapper">
+  <!-- Use lazy loading for the image -->
+  <img [lazyLoad]="data.media_url" src="{{data.media_url}}" alt="Tattoodesign">
+  <div class="button-wrapper">
+    <button mat-raised-button class="action-button comment-button" (click)="openInstagram()">
+      {{ "enlargedImage.commentButton" | translate }}
+    </button>
+    <button mat-raised-button class="action-button close-button" (click)="closeEnlargedImage()">
+      {{ "enlargedImage.closeButton" | translate }}
+    </button>
+  </div>
+</div>

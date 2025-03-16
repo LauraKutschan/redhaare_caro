@@ -1,0 +1,32 @@
+<div class="spectrumBackground">
+  <header class="header-styling">
+    <div class="logo-wrapper">
+      <p class="logo-styling" routerLink="home" mat-button>REDHAARE</p>
+      <p class="logo-underline-styling">FINE LINE AND MICRO-REALISTIC TATTOOS</p>
+      <img class="img1" src="../../assets/images/Butterflies.png">
+      <img class="img2" src="../../assets/images/Butterfly.png">
+    </div>
+    <div class="menu-styling">
+      <button class="menu-button-styling" [routerLink]="'/'" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{ exact: true }" mat-button>{{ "header.home" | translate}}</button>
+      <button class="menu-button-styling" [routerLink]="'gallery'" [routerLinkActive]="['active']" mat-button>{{ "header.galery" | translate}}</button>
+      <button class="menu-button-styling" [routerLink]="'contact'" [routerLinkActive]="['active']" mat-button>{{ "header.contact" | translate}}</button>
+      <button class="menu-button-styling" [routerLink]="'faq'" [routerLinkActive]="['active']" mat-button>{{ "header.faq" | translate}}</button>
+    </div>
+    <div class="mobile-menu-styling">
+      <button class="menu-button-styling" [routerLink]="'/'" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{ exact: true }" mat-button>
+        <mat-icon>home</mat-icon>
+      </button>
+      <button class="menu-button-styling" [routerLink]="'gallery'" [routerLinkActive]="['active']" mat-button>
+        <mat-icon>photo_library</mat-icon>
+      </button>
+      <button class="menu-button-styling" [routerLink]="'contact'" [routerLinkActive]="['active']" mat-button>
+        <mat-icon>email</mat-icon>
+      </button>
+      <button class="menu-button-styling" [routerLink]="'faq'" [routerLinkActive]="['active']" mat-button>
+        <mat-icon>help</mat-icon>
+      </button>
+    </div>
+  </header>
+  <router-outlet class="content"></router-outlet>
+  <app-footer class="footer"></app-footer>
+</div>

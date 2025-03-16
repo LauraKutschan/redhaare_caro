@@ -1,32 +1,34 @@
-import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
-import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
-import { HeaderComponent } from './header/header.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {NgModule} from '@angular/core';
+import {BrowserModule} from '@angular/platform-browser';
+import {AppRoutingModule} from './app-routing.module';
+import {AppComponent} from './app.component';
+import {HeaderComponent} from './components/header/header.component';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MatGridListModule} from "@angular/material/grid-list";
 import {MatIconModule} from "@angular/material/icon";
 import {MatToolbarModule} from "@angular/material/toolbar";
 import {MatButtonModule} from "@angular/material/button";
 import {MatSelectModule} from "@angular/material/select";
 import {RouterModule} from "@angular/router";
-import { ContactComponent } from './contact/contact.component';
+import {ContactComponent} from './components/contact/contact.component';
 import {MatStepperModule} from "@angular/material/stepper";
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import {MatCardModule} from "@angular/material/card";
-import { FooterComponent } from './footer/footer.component';
-import { HomeComponent } from './home/home.component';
-import { GalleryComponent } from './gallery/gallery.component';
+import {FooterComponent} from './components/footer/footer.component';
+import {HomeComponent} from './components/home/home.component';
+import {GalleryComponent} from './components/gallery/gallery.component';
 import {NgxTranslateModule} from "./translate/ngx-translate.module";
-import { FaqComponent } from './faq/faq.component';
+import {FaqComponent} from './components/faq/faq.component';
 import {MatExpansionModule} from "@angular/material/expansion";
-import { FilterComponent } from './gallery/filter/filter.component';
-import {JsonPipe} from "@angular/common";
+import {FilterComponent} from './components/gallery/filter/filter.component';
 import {MatCheckboxModule} from "@angular/material/checkbox";
-import {MatBottomSheet, MatBottomSheetModule, MatBottomSheetRef} from "@angular/material/bottom-sheet";
 import {MatListModule} from "@angular/material/list";
 import {MatDialogModule} from "@angular/material/dialog";
-import { ImpressumComponent } from './impressum/impressum.component';
+import {ImpressumComponent} from './components/impressum/impressum.component';
+import {MatProgressSpinnerModule} from "@angular/material/progress-spinner";
+import {LazyLoadImageModule} from "ng-lazyload-image";
+import {EnlargedImageComponent} from './components/gallery/enlarged-image/enlarged-image.component';
+import {PortfolioComponent} from "./components/portfolio/portfolio.component";
 
 @NgModule({
   declarations: [
@@ -38,7 +40,9 @@ import { ImpressumComponent } from './impressum/impressum.component';
     GalleryComponent,
     FaqComponent,
     FilterComponent,
-    ImpressumComponent
+    ImpressumComponent,
+    EnlargedImageComponent,
+    PortfolioComponent
   ],
   imports: [
     BrowserModule,
@@ -59,8 +63,11 @@ import { ImpressumComponent } from './impressum/impressum.component';
     MatCheckboxModule,
     MatListModule,
     MatDialogModule,
+    MatProgressSpinnerModule,
+    LazyLoadImageModule
   ],
   providers: [],
   bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {
+}

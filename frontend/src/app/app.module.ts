@@ -28,7 +28,7 @@ import {ImpressumComponent} from './components/impressum/impressum.component';
 import {MatProgressSpinnerModule} from "@angular/material/progress-spinner";
 import {LazyLoadImageModule} from "ng-lazyload-image";
 import {EnlargedImageComponent} from './components/gallery/enlarged-image/enlarged-image.component';
-import { PortfolioComponent } from './portfolio/portfolio.component';
+import {PortfolioComponent} from "./components/portfolio/portfolio.component";
 
 @NgModule({
   declarations: [
